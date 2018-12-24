@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/journey.iml" filepath="$PROJECT_DIR$/journey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/journey-common-core/journey-common-core.iml" filepath="$PROJECT_DIR$/journey-common-core/journey-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/journey-pay-service/journey-pay-service.iml" filepath="$PROJECT_DIR$/journey-pay-service/journey-pay-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/journey-web-gateway/journey-web-gateway.iml" filepath="$PROJECT_DIR$/journey-web-gateway/journey-web-gateway.iml" />
+    </modules>
+  </component>
+</project>
