@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="journey" target="1.8" />
-      <module name="journey-common-core" target="1.8" />
-      <module name="journey-pay-service" target="1.8" />
-      <module name="journey-web-gateway" target="1.8" />
+      <module name="journey" target="1.7" />
+      <module name="journey-common-core" target="1.7" />
+      <module name="journey-pay-service" target="1.7" />
+      <module name="journey-web-gateway" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

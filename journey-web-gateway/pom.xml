@@ -24,10 +24,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
+            <groupId>com.wuyi.journey</groupId>
+            <artifactId>journey-common-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wuyi.journey</groupId>
+            <artifactId>journey-pay-service</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
 
