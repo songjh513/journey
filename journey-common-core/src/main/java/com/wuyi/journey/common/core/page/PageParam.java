@@ -19,9 +19,9 @@ public class PageParam implements Serializable {
     public static final int DEFAULT_PAGE_NUM = 1;
 
     /**
-     * 默认每页记录数(15).
+     * 默认每页记录数(10).
      */
-    public static final int DEFAULT_NUM_PER_PAGE = 15;
+    public static final int DEFAULT_NUM_PER_PAGE = 10;
 
     /**
      * 最大每页记录数(100).

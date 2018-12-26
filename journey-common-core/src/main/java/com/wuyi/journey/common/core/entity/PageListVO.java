@@ -25,7 +25,10 @@ public class PageListVO {
 	 */
 	private Object summary;
 
-	public PageListVO(long total , int page , int pageSize , List pageData){
+    public PageListVO() {
+    }
+
+    public PageListVO(long total , int page , int pageSize , List pageData){
         this.total = total;
         this.page = page;
         this.pageSize = pageSize;
@@ -33,7 +36,6 @@ public class PageListVO {
         if (pageData != null){
             this.pageData = pageData;
         }
-
     }
 	
 	public PageListVO(long total , int page , int pageSize , List pageData, Object summary){

@@ -10,6 +10,11 @@ import java.util.ArrayList;
 public class ApiPageListResultVo {
 
     /**
+     * 是否成功
+     */
+    private boolean succeed;
+
+    /**
      * 返回码
      */
     private int code;
@@ -34,6 +39,14 @@ public class ApiPageListResultVo {
 
     public void setData(PageListVO data) {
         this.data = data;
+    }
+
+    public boolean isSucceed() {
+        return succeed;
+    }
+
+    public void setSucceed(boolean succeed) {
+        this.succeed = succeed;
     }
 
     public int getCode() {

@@ -1,8 +1,6 @@
 
 package com.wuyi.journey.pay.service.user.entity;
 
-
-
 import com.wuyi.journey.common.core.entity.BaseEntity;
 import com.wuyi.journey.common.core.enums.PublicStatusEnum;
 
@@ -11,7 +9,7 @@ import java.io.Serializable;
 /**
  * 用户信息
  */
-public class RpUserInfo extends BaseEntity implements Serializable {
+public class UserInfo extends BaseEntity implements Serializable {
 
     private String userNo;
 
