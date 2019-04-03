@@ -13,6 +13,7 @@
         <module>journey-pay-service</module>
         <module>journey-web-gateway</module>
         <module>journey-web-servecenter</module>
+        <module>journey-common-service</module>
     </modules>
 
     <name>journey</name>
